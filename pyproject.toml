@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "chatbot"
+version = "0.1.0"
+description = "chatbot rasa ui"
+authors = ["NIC"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.7.9"
+rasa = {extras = ["spacy"], version = "^3.4.4"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
